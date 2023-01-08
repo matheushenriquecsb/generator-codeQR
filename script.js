@@ -7,5 +7,14 @@ generateBtn.addEventListener("click", () => {
   let qrValue = qrInput.value;
   if (!qrValue) return;
   qrImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${qrValue}`;
-  wrapper.classList.add("active");
+  qrImg.addEventListener("load", () => {
+    wrapper.classList.add("active");
+    generateBtn.innerHTML = "Generate QR Code";
+  });
+});
+
+qrInput.addEventListener("keyup", () => {
+  if (!qrInput.value) {
+    wrapper.classList.remove("active");
+  }
 });
