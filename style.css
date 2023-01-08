@@ -9,6 +9,7 @@
 
 body {
   display: flex;
+  overflow: hidden;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
@@ -16,10 +17,16 @@ body {
 }
 
 .wrapper {
+  height: 260px;
   background-color: #fff;
   max-width: 410px;
   border-radius: 7px;
-  padding: 16px 25px;
+  padding: 16px 25px 0;
+  transition: height 0.2s ease;
+}
+
+.wrapper.active {
+  height: 530px;
 }
 
 header h1 {
@@ -62,9 +69,17 @@ header p {
 
 .wrapper .qr-code {
   display: flex;
+  pointer-events: none;
   padding: 33px 0;
   opacity: 0;
   align-items: center;
   justify-content: center;
   border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.wrapper.active .qr-code {
+  opacity: 1;
+  pointer-events: auto;
+  transition: opacity 0.5s 0.05s ease;
 }
