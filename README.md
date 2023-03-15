@@ -3,10 +3,11 @@
 ### Descrição do Projeto
 <p align="justify">
  APP gerador de código QR em HTML, CSS e JavaScript. Neste aplicativo, você pode inserir um texto ou URL para gerar um código QR para ele. Os códigos QR (Quick Response) são capazes de armazenar muitos dados e os usuários podem acessar facilmente as informações digitalizando o código QR.
-</p>
+</p> 
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
+<img src="https://github.com/matheushenriquecsb/generator-codeQR/blob/main/images/qrcode.png?raw=true" width="455"/> <img src="https://github.com/matheushenriquecsb/generator-codeQR/blob/main/images/qrcode1.png?raw=true" width="455"/>
 
 ###
 
