@@ -23,9 +23,11 @@ Aplicação gerador de código QR em HTML, CSS e JavaScript. Neste aplicativo, v
 ### Pré-requisitos e como rodar o projeto
 
 Você precisa ter instalado em sua máquina as seguintes ferramentas:<br>
-- Um bom editor para trabalhar com o código como [VSCode].(https://code.visualstudio.com/)<br>
-- Navegador de sua preferencia, no meu caso utilizo o [Chrome].(https://www.google.com/intl/pt-BR/chrome/)<br>
+- Um bom editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)<br>
+- Navegador de sua preferencia, no meu caso utilizo o [Chrome](https://www.google.com/intl/pt-BR/chrome/)<br>
 - Para o rodar o projeto, primeiramente abra o projeto em seu editor de codigo, e depois acessar o servidor local em seu navegador.  
+
+<hr>
 
 ###  Acesso ao projeto
 
