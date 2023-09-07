@@ -1,27 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>QR Code Generator</title>
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Qr Code Generator</h1>
-        <p>Copy a url or enter text to create QR Code</p>
-      </header>
-      <div class="form">
-        <input type="text" placeholder="Enter text or url" />
-        <button>Generate QR Code</button>
-      </div>
-      <div class="qr-code">
-        <img src="./image/qr-code.png" alt="qr-code" />
-      </div>
-    </div>
-
-    <script src="script.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
