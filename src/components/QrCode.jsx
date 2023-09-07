@@ -1,4 +1,10 @@
+import { useContext } from "react";
+import { InputContext } from "../App";
+
 const QrCode = () => {
+  const { response, loading, error } = useContext(InputContext);
+  console.log(response, loading, error);
+
   return (
     <div className="bg-gray-100 rounded-r-md flex flex-col items-center justify-center py-4">
       <div>
