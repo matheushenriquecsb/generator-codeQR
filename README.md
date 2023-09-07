@@ -1,37 +1,58 @@
-## Generator CodeQR
-
-### Descrição do Projeto
-<p align="justify">
-Aplicação gerador de código QR em HTML, CSS e JavaScript. Neste aplicativo, você pode inserir um texto ou URL para gerar um código QR para ele. Os códigos QR (Quick Response) são capazes de armazenar muitos dados e os usuários podem acessar facilmente as informações digitalizando o código QR.
-</p> 
+## CodeQR Generator 
+ 
+Gerador de código QR em React, CSS e Tailwind. Neste aplicativo, você pode inserir um URL para gerar um código QR a partir daquela URL inserida. Os códigos QR (Quick Response) são capazes de armazenar muitos dados e os usuários podem acessar facilmente as informações geradas.
+  
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge) 
-<hr>
+<hr> 
 
-<img src="https://github.com/matheushenriquecsb/generator-codeQR/blob/main/images/qrcode.png?raw=true" width="355" height="275"/> <img src="https://github.com/matheushenriquecsb/generator-codeQR/blob/main/images/qrcode1 .png?raw=true" width="355" height="275"/>
+### Stacks Utilizadas
 
-<hr>
-
-### Tecnologias e dependências utilizadas
-
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+<hr> 
+
+### Requirements
+
+* Editor de código recomendado [VSCode](https://code.visualstudio.com/)<br>
+* Navegador de sua preferencia, no meu caso utilizo o [Chrome](https://www.google.com/intl/pt-BR/chrome/)<br>
 
 <hr>
+
+## Installation
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/matheushenriquecsb/generator-codeQR
+```
+
+### 2. Acesse o diretório
+
+```bash
+cd generator-codeQR
+```
+
+### 3. Instale as dependências 
+
+```bash
+npm install
+```
+
+### 4. Configure o arquivo `.env`
+
+* Configure o arquivo `.env` na raiz do diretório e crie uma variável de ambiente VITE_SECRET_KEY
+* Crie uma conta no https://www.qrcode-tiger.com 
+* Na aba settings, copie a API Key e atribua a variável VITE_SECRET_KEY
+
+### 5. Run the application
+
+```bash
+npm run dev
+```  
  
-### Pré-requisitos e como rodar o projeto
-
-Você precisa ter instalado em sua máquina as seguintes ferramentas:<br>
-- Um bom editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)<br>
-- Navegador de sua preferencia, no meu caso utilizo o [Chrome](https://www.google.com/intl/pt-BR/chrome/)<br>
-- Para o rodar o projeto, primeiramente abra o projeto em seu editor de codigo, e depois acessar o servidor local em seu navegador.  
-
-<hr>
-
-###  Acesso ao projeto
-
-[Acesse o código fonte do projeto](https://github.com/matheushenriquecsb/generator_codeQR)
 
 
 
