@@ -8,7 +8,7 @@ const InputForm = () => {
   const handleSubmit = () => getQrCode();
 
   return (
-    <div className="col-span-2 p-6 grid gap-4">
+    <div className="relative flex col-span-2 p-9 grid gap-8">
       <InputField />
       <InputColor />
       <button

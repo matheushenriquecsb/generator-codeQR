@@ -14,9 +14,14 @@ function App() {
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
 
+  const apiKey = import.meta.env.VITE_SECRET_KEY;
+
   const config = {
-    headers: { Authorization: "Bearer 8c3ae140-4bef-11ee-82c6-4b656d536951" },
+    headers: { Authorization: `Bearer ${apiKey}` },
   };
+
+  console.log(config.headers);
+
   const bodyParameters = {
     colorDark: inputValue.color,
     qrCategory: "url",
