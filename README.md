@@ -1,6 +1,13 @@
-## CodeQR Generator 
+ <h1 align="center"> CodeQR Generator </h1> 
  
 Gerador de código QR em React, CSS e Tailwind. Neste aplicativo, você pode inserir um URL para gerar um código QR a partir daquela URL inserida. Os códigos QR (Quick Response) são capazes de armazenar muitos dados e os usuários podem acessar facilmente as informações geradas.
+
+
+<img src="https://github.com/matheushenriquecsb/generator-codeQR/blob/main/src/assets/qr-code.png?raw=true" width="600"/>
+
+<hr>
+
+<img src="https://github.com/matheushenriquecsb/generator-codeQR/blob/main/src/assets/qr-code2.png?raw=true" width="600"/>
   
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge) 
